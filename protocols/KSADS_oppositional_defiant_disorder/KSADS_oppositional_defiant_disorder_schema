@@ -1,0 +1,26 @@
+{
+    "@context": [
+        "https://raw.githubusercontent.com/ReproNim/reproschema/master/contexts/generic",
+        "https://raw.githubusercontent.com/hotavocado/KSADS-oppositional_defiant_disorder/master/protocols/KSADS_oppositional_defiant_disorder/KSADS_oppositional_defiant_disorder_context"
+    ],
+    "@type": "reproschema:Protocol",
+    "@id": "KSADS_oppositional_defiant_disorder_schema",
+    "skos:prefLabel": "Oppositional Defiant Disorder",
+    "schema:description": "Oppositional Defiant Disorder section for KSADS interview",
+    "landingPage": "https://raw.githubusercontent.com/hotavocado/KSADS-oppositional_defiant_disorder/master/protocols/KSADS_oppositional_defiant_disorder/README.md",
+    "schema:schemaVersion": "0.0.1",
+    "schema:version": "0.0.1",
+    "ui": {
+        "addProperties": [
+            {
+                "variableName": "oppositional_defiant_disorder",
+                "isAbout": "oppositional_defiant_disorder",
+                "isVis": true
+            }
+        ],
+        "order": [
+            "oppositional_defiant_disorder"
+        ],
+        "shuffle": false
+    }
+}
